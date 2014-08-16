@@ -1,0 +1,43 @@
+# ############################################################ #
+#                        Information                           #
+# Made by sy8the2flies                                         #
+# Version 2.0.1                                                #                            
+# ############################################################ #
+
+Tokens:
+  tokenName: 'token'
+
+tokens_On_Kill:
+  enabled: true
+  announce: true
+  give_Tokens_From_Spawner: false
+  player:
+  player: 10.0
+  chicken: 1.0
+  cow: 1.0
+  horse: 1.0
+  ocelot: 1.0
+  pig: 1.0
+  sheep: 1.0
+  bat: 1.0
+  mooshroom: 1.0
+  squid: 1.0
+  villager: 1.0
+  blaze: 1.5
+  creeper: 1.5
+  ghast: 1.5
+  magmacube: 1.5
+  pig_zombie: 1.5
+  silverfish: 1.5
+  skeleton: 1.5
+  slime: 1.5
+  spiderjockey: 1.5
+  witch: 1.5
+  witherskeleton: 1.5
+  zombie: 1.5
+  chickenjockey: 1.5
+  snowman: 5.0
+  iron_golem: 5.0
+  ender_dragon: 10.0
+  wither: 10.0
+   

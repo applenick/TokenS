@@ -1,0 +1,38 @@
+# ############################################################# #
+#                       Messages                               #
+# This is the message.yml,                                     #
+# You can change the way you want all the different messages   #
+# to look like,                                                #
+# it is still a WIP since the TokenS plugin has alot of        #
+# messages. Please report to me if you find any bugs in the    #
+# plugin-M, thanks, ~ Sky                                      #
+# Help:                                                        #
+# %amount& - The amount choosen in the args.                   #
+# %tokenName% - Name of the tokens you specified.              #
+# %chosenPlayer% - Name of the player specified in the args.   #
+# %tokens% - The amount of tokens the player has left.         #
+#                                                              #
+# Not all nodes will work for each message. Contact me if you  #
+# Would like it to work.                                       #
+# ############################################################ #
+Messages:
+  prefix: '&b&l[&6&lTokenS&b&l]'
+
+  tokensGive:
+    send_Tokens: '&6Sent &b%amount% &6%tokenName% to &b%chosenPlayer%''s &6account.'
+    recieved_Tokens: '&b%amount% &6%tokenName% have been added to your account.'
+
+  tokensRemove:
+    remove_Tokens: '&6You removed &b%amount% &6%tokenName% from &b%chosenPlayer%''s &6account'
+    removed_Tokens: '&b%amount% &6%tokenName% have been remove from your account.'
+
+  tokensCheck:
+    on_Check: '&6You have &b%tokens% &6%tokenName%.'
+    on_Player_Check: '&b%chosenPlayer%''s &6account: &b%chosenTokens% &6%tokenName%.'
+
+  Errors:
+    cfg_Error: '&4&lCfgError > &cPlease contact a staff member.'
+    no_Permissions: '&cNot enough perms.'
+    invalid_Amount: '&cThe amount you entered is not a whole number.' 
+    invalid_Playername: '&b%chosenPlayer% &cis not a valid player.'
+    
