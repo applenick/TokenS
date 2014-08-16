@@ -1,0 +1,33 @@
+# ############################################################ #
+#                  DonatorShop Information                     #
+#                                                              #
+# Example:                                                     #
+# token_Shop:                                                  #
+#   ExampleItem:                                               #
+#     slot: 1                                                   #
+#     id: 276                                                   #
+#     meta: 0                                                  #
+#     amount: 1                                                #
+#     name: '&6ExampleItem'                                    #
+#     price: 10                                                #
+#     enchants:                                                #  
+#     - sharpness:1                                            #
+#                                                              #
+# All enchantments can be found here:                          #
+# http://pastebin.com/neAH5mZ0                                 #
+# ############################################################ #
+shop:
+  shop_Name: 'Donator Shop'
+  row_Amount: 2
+
+token_Shop:                                                  
+  ExampleItem:                                               
+   slot: 1                                                   
+   id: 276                                                   
+   meta: 0                                                  
+   amount: 1                                                
+   name: '&6ExampleItem'                                    
+   price: 10
+   enchants:                                                 
+   - sharpness:1    
+
