@@ -1,9 +1,0 @@
-name: TokenS
-version: 2.0.1
-main: com.sky8the2flies.tokens.TokenS
-author: [sky8the2flies]
-description: Token system.
-commands:
-   tokens:
-      description: TokenS main command.
-      aliases: [token, tok]
